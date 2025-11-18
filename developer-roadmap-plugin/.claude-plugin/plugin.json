@@ -1,0 +1,121 @@
+{
+  "name": "developer-roadmap",
+  "description": "Comprehensive learning plugin with 65+ developer roles including Frontend, Backend, DevOps, Data Science, Mobile, Architecture, and Specialized roles. Powered by kamranahmedse/developer-roadmap repository.",
+  "version": "1.0.0",
+  "author": "Developer Roadmap Community",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kamranahmedse/developer-roadmap"
+  },
+  "keywords": [
+    "learning",
+    "roadmap",
+    "developer",
+    "career",
+    "skills",
+    "frontend",
+    "backend",
+    "devops",
+    "data-science",
+    "mobile",
+    "architecture",
+    "specialized-roles"
+  ],
+  "agents": [
+    {
+      "id": "frontend-web-agent",
+      "name": "Frontend & Web Development",
+      "path": "agents/01-frontend-web.md"
+    },
+    {
+      "id": "backend-server-agent",
+      "name": "Backend & Server-Side",
+      "path": "agents/02-backend-server.md"
+    },
+    {
+      "id": "devops-infra-agent",
+      "name": "DevOps & Infrastructure",
+      "path": "agents/03-devops-infrastructure.md"
+    },
+    {
+      "id": "data-ai-agent",
+      "name": "Data Science & AI",
+      "path": "agents/04-data-science-ai.md"
+    },
+    {
+      "id": "mobile-game-agent",
+      "name": "Mobile & Game Development",
+      "path": "agents/05-mobile-game.md"
+    },
+    {
+      "id": "database-architecture-agent",
+      "name": "Database & Architecture",
+      "path": "agents/06-database-architecture.md"
+    },
+    {
+      "id": "specialized-roles-agent",
+      "name": "Specialized Roles & Tools",
+      "path": "agents/07-specialized-roles.md"
+    }
+  ],
+  "commands": [
+    {
+      "name": "explore-roadmap",
+      "description": "Explore developer roadmaps by role category",
+      "path": "commands/explore-roadmap.md"
+    },
+    {
+      "name": "learning-path",
+      "description": "Create personalized learning paths",
+      "path": "commands/learning-path.md"
+    },
+    {
+      "name": "skill-assessment",
+      "description": "Assess your skills and get recommendations",
+      "path": "commands/skill-assessment.md"
+    },
+    {
+      "name": "roadmap-compare",
+      "description": "Compare different developer roles",
+      "path": "commands/roadmap-compare.md"
+    }
+  ],
+  "skills": [
+    {
+      "id": "frontend-skills",
+      "name": "Frontend Technologies",
+      "path": "skills/frontend/SKILL.md"
+    },
+    {
+      "id": "backend-skills",
+      "name": "Backend Technologies",
+      "path": "skills/backend/SKILL.md"
+    },
+    {
+      "id": "devops-skills",
+      "name": "DevOps & Infrastructure",
+      "path": "skills/devops/SKILL.md"
+    },
+    {
+      "id": "data-ai-skills",
+      "name": "Data Science & AI",
+      "path": "skills/data-ai/SKILL.md"
+    },
+    {
+      "id": "mobile-skills",
+      "name": "Mobile Development",
+      "path": "skills/mobile/SKILL.md"
+    },
+    {
+      "id": "database-skills",
+      "name": "Database Technologies",
+      "path": "skills/database/SKILL.md"
+    },
+    {
+      "id": "architecture-skills",
+      "name": "Architecture & Design Patterns",
+      "path": "skills/architecture/SKILL.md"
+    }
+  ]
+}

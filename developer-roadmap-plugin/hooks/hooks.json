@@ -1,0 +1,202 @@
+{
+  "hooks": [
+    {
+      "name": "learning-progress-tracker",
+      "description": "Tracks learning progress and milestones",
+      "event": "on_command_complete",
+      "triggers": [
+        "/learning-path",
+        "/skill-assessment"
+      ],
+      "actions": [
+        {
+          "type": "log_progress",
+          "message": "Learning milestone recorded for future reference"
+        },
+        {
+          "type": "suggest_next_step",
+          "based_on": "current_progress"
+        }
+      ]
+    },
+    {
+      "name": "skill-recommendation-engine",
+      "description": "Provides skill recommendations based on exploration patterns",
+      "event": "on_roadmap_view",
+      "triggers": [
+        "/explore-roadmap",
+        "/roadmap-compare"
+      ],
+      "actions": [
+        {
+          "type": "track_interests",
+          "store_in": "user_preferences"
+        },
+        {
+          "type": "generate_recommendations",
+          "based_on": "viewed_roles",
+          "frequency": "weekly"
+        }
+      ]
+    },
+    {
+      "name": "learning-resource-aggregator",
+      "description": "Aggregates relevant learning resources for viewed roles",
+      "event": "on_agent_load",
+      "triggers": [
+        "frontend-web-agent",
+        "backend-server-agent",
+        "devops-infra-agent",
+        "data-ai-agent",
+        "mobile-game-agent",
+        "database-architecture-agent",
+        "specialized-roles-agent"
+      ],
+      "actions": [
+        {
+          "type": "collect_resources",
+          "sources": [
+            "official_documentation",
+            "community_tutorials",
+            "course_platforms",
+            "book_recommendations"
+          ]
+        },
+        {
+          "type": "format_resources",
+          "output": "curated_list"
+        }
+      ]
+    },
+    {
+      "name": "skill-gap-identifier",
+      "description": "Identifies skill gaps between current and target roles",
+      "event": "on_assessment_complete",
+      "trigger": "/skill-assessment",
+      "actions": [
+        {
+          "type": "analyze_skills",
+          "compare": "current_vs_target"
+        },
+        {
+          "type": "identify_gaps",
+          "priority": "high_impact_first"
+        },
+        {
+          "type": "suggest_path",
+          "type": "focused_learning"
+        }
+      ]
+    },
+    {
+      "name": "project-recommendation-engine",
+      "description": "Recommends projects based on learning path",
+      "event": "on_learning_path_create",
+      "trigger": "/learning-path",
+      "actions": [
+        {
+          "type": "filter_projects",
+          "by": ["difficulty", "learning_goal", "time_commitment"]
+        },
+        {
+          "type": "rank_projects",
+          "criteria": "relevance_score"
+        },
+        {
+          "type": "suggest_projects",
+          "count": 3,
+          "format": "progressive_difficulty"
+        }
+      ]
+    },
+    {
+      "name": "learning-streak-tracker",
+      "description": "Tracks consistent learning engagement",
+      "event": "on_plugin_usage",
+      "triggers": [
+        "/explore-roadmap",
+        "/learning-path",
+        "/skill-assessment",
+        "/roadmap-compare"
+      ],
+      "actions": [
+        {
+          "type": "record_activity",
+          "timestamp": true
+        },
+        {
+          "type": "update_streak",
+          "consecutive_days": true
+        },
+        {
+          "type": "celebrate_milestones",
+          "at": [7, 30, 100, 365]
+        }
+      ]
+    },
+    {
+      "name": "learning-style-detector",
+      "description": "Detects user's preferred learning style",
+      "event": "on_command_usage",
+      "actions": [
+        {
+          "type": "analyze_patterns",
+          "track": [
+            "command_frequency",
+            "agent_preferences",
+            "skill_focus_areas"
+          ]
+        },
+        {
+          "type": "identify_style",
+          "styles": [
+            "visual",
+            "hands_on",
+            "theory_first",
+            "mixed"
+          ]
+        },
+        {
+          "type": "personalize_recommendations",
+          "based_on": "identified_style"
+        }
+      ]
+    },
+    {
+      "name": "career-milestone-notifier",
+      "description": "Celebrates learning milestones and achievements",
+      "event": "on_skill_level_change",
+      "actions": [
+        {
+          "type": "detect_milestone",
+          "events": [
+            "beginner_to_intermediate",
+            "intermediate_to_advanced",
+            "advanced_to_expert"
+          ]
+        },
+        {
+          "type": "notify_user",
+          "include": [
+            "achievement_summary",
+            "skills_learned",
+            "next_milestone_info"
+          ]
+        },
+        {
+          "type": "suggest_next_path",
+          "based_on": "current_level"
+        }
+      ]
+    }
+  ],
+  "configuration": {
+    "enable_analytics": true,
+    "track_user_preferences": true,
+    "personalization_level": "advanced",
+    "notification_frequency": "weekly",
+    "data_retention_days": 365,
+    "anonymization": "enabled",
+    "learning_suggestions_frequency": "on_command"
+  }
+}

@@ -1,6 +1,6 @@
 {
-  "name": "custom-plugin-blockchain",
-  "description": "Professional developer roadmap plugin with 65+ roles. 7 specialized agents covering Frontend, Backend, DevOps, Data Science, Mobile, Database, and Specialized Roles. Powered by kamranahmedse/developer-roadmap.",
+  "name": "blockchain-development-assistant",
+  "description": "Blockchain development plugin with specialized agents for Ethereum, Solidity, DeFi, and Web3",
   "version": "1.0.0",
   "author": "Custom Plugin Blockchain Team",
   "license": "SEE LICENSE IN LICENSE",
@@ -21,48 +21,13 @@
     "blockchain"
   ],
   "agents": [
-    {
-      "id": "frontend-web-agent",
-      "name": "Frontend & Web Development",
-      "path": "agents/01-frontend-web.md",
-      "description": "Master frontend development with modern frameworks and technologies"
-    },
-    {
-      "id": "backend-server-agent",
-      "name": "Backend & Server-Side",
-      "path": "agents/02-backend-server.md",
-      "description": "Build scalable backend systems and APIs"
-    },
-    {
-      "id": "devops-infra-agent",
-      "name": "DevOps & Infrastructure",
-      "path": "agents/03-devops-infrastructure.md",
-      "description": "Deploy and manage production infrastructure"
-    },
-    {
-      "id": "data-ai-agent",
-      "name": "Data Science & AI",
-      "path": "agents/04-data-science-ai.md",
-      "description": "Master machine learning and AI technologies"
-    },
-    {
-      "id": "mobile-game-agent",
-      "name": "Mobile & Game Development",
-      "path": "agents/05-mobile-game.md",
-      "description": "Build mobile apps and games"
-    },
-    {
-      "id": "database-architecture-agent",
-      "name": "Database & Architecture",
-      "path": "agents/06-database-architecture.md",
-      "description": "Design scalable systems and databases"
-    },
-    {
-      "id": "specialized-roles-agent",
-      "name": "Specialized Roles & Tools",
-      "path": "agents/07-specialized-roles.md",
-      "description": "Explore QA, Security, Product, and emerging technologies"
-    }
+    "./agents/01-blockchain-fundamentals.md",
+    "./agents/02-ethereum-development.md",
+    "./agents/03-solidity-expert.md",
+    "./agents/04-defi-specialist.md",
+    "./agents/05-web3-frontend.md",
+    "./agents/06-smart-contract-security.md",
+    "./agents/07-nft-development.md"
   ],
   "commands": [
     {
@@ -87,47 +52,12 @@
     }
   ],
   "skills": [
-    {
-      "id": "frontend-technologies",
-      "name": "Frontend Technologies",
-      "path": "skills/frontend/SKILL.md",
-      "category": "frontend"
-    },
-    {
-      "id": "backend-technologies",
-      "name": "Backend Technologies",
-      "path": "skills/backend/SKILL.md",
-      "category": "backend"
-    },
-    {
-      "id": "devops-infrastructure",
-      "name": "DevOps & Infrastructure",
-      "path": "skills/devops/SKILL.md",
-      "category": "devops"
-    },
-    {
-      "id": "data-ai-technologies",
-      "name": "Data Science & AI",
-      "path": "skills/data-ai/SKILL.md",
-      "category": "data-ai"
-    },
-    {
-      "id": "mobile-development",
-      "name": "Mobile Development",
-      "path": "skills/mobile/SKILL.md",
-      "category": "mobile"
-    },
-    {
-      "id": "database-technologies",
-      "name": "Database Technologies",
-      "path": "skills/database/SKILL.md",
-      "category": "database"
-    },
-    {
-      "id": "architecture-design-patterns",
-      "name": "Architecture & Design Patterns",
-      "path": "skills/architecture/SKILL.md",
-      "category": "architecture"
-    }
+    "./skills/blockchain-basics/SKILL.md",
+    "./skills/solidity-development/SKILL.md",
+    "./skills/ethereum-development/SKILL.md",
+    "./skills/defi-protocols/SKILL.md",
+    "./skills/web3-frontend/SKILL.md",
+    "./skills/smart-contract-security/SKILL.md",
+    "./skills/nft-development/SKILL.md"
   ]
 }

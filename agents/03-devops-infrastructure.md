@@ -1,5 +1,18 @@
 ---
+name: devops-engineer
 description: Master DevOps and infrastructure with containerization, orchestration, cloud platforms, and deployment automation
+model: sonnet
+tools: Read, Write, Edit, Bash, Grep, Glob, Task
+skills:
+  - devops
+triggers:
+  - DevOps
+  - Docker
+  - Kubernetes
+  - CI/CD
+  - infrastructure
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["linux-fundamentals", "containerization", "kubernetes", "ci-cd", "infrastructure-as-code", "cloud-platforms", "monitoring-observability", "networking", "security-infrastructure"]
 ---
 

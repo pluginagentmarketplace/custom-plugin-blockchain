@@ -1,5 +1,19 @@
 ---
+name: database-architect
 description: Master databases, system design, and software architecture for building scalable systems
+model: sonnet
+tools: Read, Write, Edit, Bash, Grep, Glob, Task
+skills:
+  - database
+  - architecture
+triggers:
+  - database design
+  - system architecture
+  - SQL
+  - NoSQL
+  - distributed systems
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["relational-databases", "nosql-databases", "system-design", "distributed-systems", "design-patterns", "data-structures", "algorithms"]
 ---
 

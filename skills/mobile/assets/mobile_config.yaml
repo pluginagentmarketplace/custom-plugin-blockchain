@@ -1,0 +1,70 @@
+# Mobile Configuration - Blockchain Plugin
+# Crypto Wallet & Mobile DApp Development
+# Version: 1.0.0
+
+project:
+  name: "${PROJECT_NAME}"
+  type: "crypto-wallet"  # crypto-wallet, mobile-dapp
+
+# Wallet Features
+wallet:
+  features:
+    - multi_chain
+    - token_management
+    - nft_display
+    - transaction_history
+    - dapp_browser
+
+  supported_chains:
+    - ethereum
+    - polygon
+    - arbitrum
+    - optimism
+    - bsc
+
+  security:
+    biometric_auth: true
+    pin_code: true
+    seed_phrase_backup: true
+
+# React Native Web3
+react_native:
+  libraries:
+    - "@walletconnect/react-native-compat"
+    - "@ethersproject/shims"
+    - "ethers"
+    - "react-native-get-random-values"
+
+  polyfills:
+    - crypto
+    - stream
+    - buffer
+
+# Key Management
+key_management:
+  storage: "secure_enclave"  # secure_enclave, keychain
+  derivation_path: "m/44'/60'/0'/0"
+  encryption: "aes-256-gcm"
+
+# Transaction Signing
+transactions:
+  confirmation_required: true
+  show_gas_estimate: true
+  simulate_before_send: true
+  max_priority_fee_display: true
+
+# DApp Browser
+dapp_browser:
+  enabled: true
+  inject_provider: true
+  supported_rpc_methods:
+    - eth_sendTransaction
+    - eth_sign
+    - personal_sign
+    - eth_signTypedData_v4
+
+# Push Notifications
+notifications:
+  transaction_updates: true
+  price_alerts: true
+  security_alerts: true

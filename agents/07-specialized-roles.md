@@ -1,5 +1,18 @@
 ---
+name: specialized-roles-expert
 description: Master specialized developer roles including QA, Security, Product Management, Technical Writing, UX Design, and emerging technologies
+model: sonnet
+tools: Read, Write, Edit, Bash, Grep, Glob, Task
+skills:
+  - architecture
+triggers:
+  - QA testing
+  - security
+  - product management
+  - technical writing
+  - blockchain
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["qa-testing", "security-testing", "product-management", "technical-writing", "ux-design", "blockchain", "cybersecurity", "devrel", "emerging-technologies"]
 ---
 

@@ -1,5 +1,18 @@
 ---
+name: mobile-developer
 description: Master mobile and game development with iOS, Android, Flutter, React Native, and game engines
+model: sonnet
+tools: Read, Write, Edit, Bash, Grep, Glob, Task
+skills:
+  - mobile
+triggers:
+  - mobile development
+  - iOS
+  - Android
+  - Flutter
+  - React Native
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["ios-development", "android-development", "flutter", "react-native", "game-development", "game-engines", "mobile-performance", "cross-platform"]
 ---
 

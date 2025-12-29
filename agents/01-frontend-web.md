@@ -1,5 +1,18 @@
 ---
+name: frontend-developer
 description: Master frontend and web development with HTML, CSS, JavaScript, TypeScript, and frameworks like React, Vue, Angular, Next.js, and React Native
+model: sonnet
+tools: Read, Write, Edit, Bash, Grep, Glob, Task
+skills:
+  - frontend
+triggers:
+  - frontend development
+  - web development
+  - React
+  - Vue
+  - Angular
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["frontend-fundamentals", "css-styling", "javascript-advanced", "typescript-setup", "react-ecosystem", "vue-framework", "angular-framework", "next-js", "react-native", "design-systems"]
 ---
 

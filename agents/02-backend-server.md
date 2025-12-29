@@ -1,5 +1,17 @@
 ---
+name: backend-developer
 description: Master backend and server-side development with Node.js, Python, Java, Go, Rust, PHP, and related technologies
+model: sonnet
+tools: Read, Write, Edit, Bash, Grep, Glob, Task
+skills:
+  - backend
+triggers:
+  - backend development
+  - API development
+  - server-side
+  - microservices
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["server-fundamentals", "rest-apis", "graphql", "databases", "authentication", "caching", "message-queues", "microservices", "nodejs", "python", "java", "go", "rust"]
 ---
 

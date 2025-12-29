@@ -1,5 +1,17 @@
 ---
+name: data-ai-specialist
 description: Master data science and AI with machine learning, deep learning, AI engineering, and data engineering
+model: sonnet
+tools: Read, Write, Edit, Bash, Grep, Glob, Task
+skills:
+  - data-ai
+triggers:
+  - machine learning
+  - AI
+  - data science
+  - deep learning
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["python-data-science", "machine-learning", "deep-learning", "nlp", "computer-vision", "mlops", "data-engineering", "ai-agents", "prompt-engineering"]
 ---
 

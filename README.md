@@ -1,302 +1,262 @@
-# Custom Plugin Blockchain - Developer Roadmap
+<div align="center">
 
-A comprehensive learning and career development plugin powered by the [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) repository. Built as a professional, production-ready Claude Code plugin.
+<!-- Animated Typing Banner -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Blockchain+Assistant;7+Agents+%7C+7+Skills;Claude+Code+Plugin" alt="Blockchain Assistant" />
 
-## Overview
+<br/>
 
-This plugin brings the power of 65+ developer roadmaps directly into Claude Code, providing intelligent guidance for learning and career progression in software development.
+<!-- Badge Row 1: Status Badges -->
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)](https://github.com/pluginagentmarketplace/custom-plugin-blockchain/releases)
+[![License](https://img.shields.io/badge/License-Custom-yellow?style=for-the-badge)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Production-brightgreen?style=for-the-badge)](#)
+[![SASMP](https://img.shields.io/badge/SASMP-v1.3.0-blueviolet?style=for-the-badge)](#)
 
-## Features
+<!-- Badge Row 2: Content Badges -->
+[![Agents](https://img.shields.io/badge/Agents-7-orange?style=flat-square&logo=robot)](#-agents)
+[![Skills](https://img.shields.io/badge/Skills-7-purple?style=flat-square&logo=lightning)](#-skills)
+[![Commands](https://img.shields.io/badge/Commands-4-green?style=flat-square&logo=terminal)](#-commands)
 
-🎯 **7 Specialized Agents**
-- Frontend & Web Development
-- Backend & Server-Side Development
-- DevOps & Infrastructure
-- Data Science & AI
-- Mobile & Game Development
-- Database & Architecture
-- Specialized Roles & Tools
+<br/>
 
-📚 **Comprehensive Learning Paths**
-- Structured learning journeys from beginner to expert
-- Personalized recommendations based on experience level
-- Time-based progression tracking
-- Project-based learning approach
-
-🛠️ **Interactive Tools**
-- `/explore-roadmap` - Browse 65+ developer roles
-- `/learning-path` - Create personalized learning plans
-- `/skill-assessment` - Evaluate your proficiency
-- `/roadmap-compare` - Compare different roles
-
-💡 **Domain-Specific Skills**
-- Frontend Technologies (HTML, CSS, JavaScript, React, etc.)
-- Backend Technologies (Node.js, Python, Java, Go, Rust, etc.)
-- DevOps & Infrastructure (Docker, Kubernetes, Terraform, etc.)
-- Data Science & AI (ML, Deep Learning, NLP, LLMs)
-- Mobile Development (iOS, Android, Flutter, React Native)
-- Database Technologies (SQL, NoSQL, optimization)
-- Architecture & Design Patterns (SOLID, microservices, system design)
-
-🚀 **Intelligent Automation**
-- Learning progress tracking
-- Skill gap identification
-- Project recommendations
-- Learning streak tracking
-- Career milestone celebrations
-
-## Installation
-
-### Quick Installation (Single Line)
-
-```bash
-git clone https://github.com/pluginagentmarketplace/custom-plugin-blockchain.git && cd custom-plugin-blockchain
-```
-
-Then in Claude Code, load the plugin:
-```
-/load-plugin ./custom-plugin-blockchain
-```
-
-### Alternative: Copy to Plugins Directory
-
-```bash
-cp -r custom-plugin-blockchain ~/.claude-code/plugins/
-```
-
-### Cloud Installation (Marketplace - Coming Soon)
-
-The plugin will be available on the Claude Code marketplace for one-click installation.
-
-## Quick Start
-
-### 1. Explore Available Roadmaps
-
-```
-/explore-roadmap frontend
-/explore-roadmap backend
-/explore-roadmap devops
-```
-
-### 2. Create Your Learning Path
-
-```
-/learning-path frontend beginner full-time
-/learning-path backend intermediate flexible
-```
-
-### 3. Assess Your Skills
-
-```
-/skill-assessment frontend
-/skill-assessment backend
-```
-
-### 4. Compare Different Roles
-
-```
-/roadmap-compare frontend backend
-/roadmap-compare devops kubernetes terraform
-```
-
-## Plugin Structure
-
-```
-custom-plugin-blockchain/
-├── .claude-plugin/
-│   └── plugin.json                    # ✅ Official Claude Code manifest
-│
-├── agents/                            # ✅ 7 Specialized agents
-│   ├── 01-frontend-web.md
-│   ├── 02-backend-server.md
-│   ├── 03-devops-infrastructure.md
-│   ├── 04-data-science-ai.md
-│   ├── 05-mobile-game.md
-│   ├── 06-database-architecture.md
-│   └── 07-specialized-roles.md
-│
-├── commands/                          # ✅ 4 Interactive slash commands
-│   ├── explore-roadmap.md
-│   ├── learning-path.md
-│   ├── skill-assessment.md
-│   └── roadmap-compare.md
-│
-├── skills/                            # ✅ 7 Domain-specific skills
-│   ├── frontend/SKILL.md
-│   ├── backend/SKILL.md
-│   ├── devops/SKILL.md
-│   ├── data-ai/SKILL.md
-│   ├── mobile/SKILL.md
-│   ├── database/SKILL.md
-│   └── architecture/SKILL.md
-│
-├── hooks/
-│   └── hooks.json                     # ✅ Intelligent automation
-│
-├── README.md                          # This file
-├── ARCHITECTURE.md                    # Technical details
-├── LICENSE                            # MIT License
-└── CHANGELOG.md                       # Version history
-```
-
-## 65+ Available Roadmaps
-
-### Frontend & Web (11 roles)
-Frontend, HTML, CSS, JavaScript, TypeScript, React, Vue, Angular, Next.js, React Native, Design Systems
-
-### Backend & Server (10 roles)
-Backend, Node.js, Python, Java, Go, Rust, PHP, GraphQL, Spring Boot, ASP.NET Core
-
-### DevOps & Infrastructure (8 roles)
-DevOps, AWS, Docker, Kubernetes, Terraform, Linux, Cloudflare, CI/CD
-
-### Data Science & AI (9 roles)
-Data Science, Machine Learning, Deep Learning, AI Engineer, Data Engineer, Data Analyst, MLOps, AI Agents, Prompt Engineering
-
-### Mobile (6 roles)
-iOS, Android, Flutter, React Native, Swift, Kotlin
-
-### Database (5 roles)
-PostgreSQL, MySQL, MongoDB, Redis, SQL
-
-### Specializations (10+ roles)
-QA, Product Manager, UX Design, Technical Writer, Engineering Manager, DevRel, Blockchain, Cyber Security, Game Developer, Git & GitHub, API Design, Computer Science
-
-**Total: 65+ comprehensive learning roadmaps**
-
-## Learning Approaches
-
-### For Beginners
-- Start with fundamentals in your chosen domain
-- Follow structured learning paths
-- Build simple projects
-- Get community feedback
-
-### For Intermediate Developers
-- Deep dive into specific technologies
-- Build more complex projects
-- Understand design patterns
-- Contribute to open source
-
-### For Advanced Developers
-- Master system design
-- Explore architectural patterns
-- Lead projects and teams
-- Mentor others
-
-## Best Practices
-
-1. **Start with one domain** - Don't try to learn everything at once
-2. **Build projects** - Apply knowledge in real-world scenarios
-3. **Follow learning paths** - Use structured guides for efficiency
-4. **Get feedback** - Share code and designs for critique
-5. **Consistency** - Regular study beats cramming
-6. **Community** - Join groups related to your interests
-7. **Stay updated** - Tech evolves constantly
-
-## Keyboard Shortcuts
-
-| Action | Shortcut |
-|--------|----------|
-| Explore roadmaps | `/explore-roadmap` |
-| Create learning path | `/learning-path` |
-| Assess skills | `/skill-assessment` |
-| Compare roles | `/roadmap-compare` |
-
-## Configuration
-
-The plugin can be customized via hooks:
-
-- **Learning notifications** - Weekly progress summaries
-- **Skill tracking** - Automatic proficiency tracking
-- **Project recommendations** - Smart project suggestions
-- **Resource aggregation** - Curated learning materials
-
-See `hooks/hooks.json` for detailed configuration options.
-
-## Support & Resources
-
-- **Official Roadmaps**: https://github.com/kamranahmedse/developer-roadmap
-- **Community**: GitHub Issues and Discussions
-- **Updates**: Watch for regular roadmap updates
-
-## Troubleshooting
-
-### Plugin not loading?
-```bash
-# Verify plugin.json syntax
-cat .claude-plugin/plugin.json
-
-# Check agent files exist
-ls agents/
-ls commands/
-ls skills/
-```
-
-### Commands not showing?
-- Restart Claude Code
-- Verify commands are in `commands/` directory
-- Check plugin.json references correct paths
-
-### Skills not available?
-- Ensure SKILL.md files follow proper format
-- Check frontmatter YAML syntax
-- Verify skill paths in plugin.json
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Add improvements or new roadmaps
-4. Submit a pull request
-
-## License
-
-MIT License - See LICENSE file for details
-
-## Credits
-
-- **Original Roadmaps**: [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)
-- **Plugin Development**: Claude Code Community
-- **Contributors**: Open source community
-
-## Changelog
-
-### v1.0.0 (Initial Release)
-- 7 specialized agents
-- 4 interactive commands
-- 7 domain-specific skills
-- 65+ learning roadmaps
-- Intelligent learning hooks
-- Comprehensive documentation
-
-## Future Enhancements
-
-- [ ] Interactive skill quizzes
-- [ ] Real-time job market data
-- [ ] Certification tracking
-- [ ] Peer learning communities
-- [ ] Video tutorial integration
-- [ ] IDE-integrated projects
-- [ ] Custom roadmap creation
+<!-- Quick CTA Row -->
+[📦 **Install Now**](#-quick-start) · [🤖 **Explore Agents**](#-agents) · [📖 **Documentation**](#-documentation) · [⭐ **Star this repo**](https://github.com/pluginagentmarketplace/custom-plugin-blockchain)
 
 ---
 
-## 🚀 Get Started Now!
+### What is this?
 
-**Ready to transform your learning?**
+> **Blockchain Assistant** is a Claude Code plugin with **7 agents** and **7 skills** for blockchain development.
+
+</div>
+
+---
+
+## 📑 Table of Contents
+
+<details>
+<summary>Click to expand</summary>
+
+- [Quick Start](#-quick-start)
+- [Features](#-features)
+- [Agents](#-agents)
+- [Skills](#-skills)
+- [Commands](#-commands)
+- [Documentation](#-documentation)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+</details>
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Claude Code CLI v2.0.27+
+- Active Claude subscription
+
+### Installation (Choose One)
+
+<details open>
+<summary><strong>Option 1: From Marketplace (Recommended)</strong></summary>
 
 ```bash
-# One-line installation
+# Step 1️⃣ Add the marketplace
+/plugin add marketplace pluginagentmarketplace/custom-plugin-blockchain
+
+# Step 2️⃣ Install the plugin
+/plugin install custom-plugin-blockchain@pluginagentmarketplace-blockchain
+
+# Step 3️⃣ Restart Claude Code
+# Close and reopen your terminal/IDE
+```
+
+</details>
+
+<details>
+<summary><strong>Option 2: Local Installation</strong></summary>
+
+```bash
+# Clone the repository
 git clone https://github.com/pluginagentmarketplace/custom-plugin-blockchain.git
+cd custom-plugin-blockchain
+
+# Load locally
+/plugin load .
+
+# Restart Claude Code
 ```
 
-Then load in Claude Code:
+</details>
+
+### ✅ Verify Installation
+
+After restart, you should see these agents:
+
 ```
-/load-plugin ./custom-plugin-blockchain
-/explore-roadmap
+custom-plugin-blockchain:06-database-architecture
+custom-plugin-blockchain:07-specialized-roles
+custom-plugin-blockchain:05-mobile-game
+custom-plugin-blockchain:03-devops-infrastructure
+custom-plugin-blockchain:01-frontend-web
+... and 2 more
 ```
 
-**Happy Learning!** 🎓✨
+---
 
-For questions or suggestions, open an issue on [GitHub](https://github.com/pluginagentmarketplace/custom-plugin-blockchain).
+## ✨ Features
+
+| Feature | Description |
+|---------|-------------|
+| 🤖 **7 Agents** | Specialized AI agents for blockchain tasks |
+| 🛠️ **7 Skills** | Reusable capabilities with Golden Format |
+| ⌨️ **4 Commands** | Quick slash commands |
+| 🔄 **SASMP v1.3.0** | Full protocol compliance |
+
+---
+
+## 🤖 Agents
+
+### 7 Specialized Agents
+
+| # | Agent | Purpose |
+|---|-------|---------|
+| 1 | **06-database-architecture** | Master databases, system design, and software architecture f |
+| 2 | **07-specialized-roles** | Master specialized developer roles including QA, Security, P |
+| 3 | **05-mobile-game** | Master mobile and game development with iOS, Android, Flutte |
+| 4 | **03-devops-infrastructure** | Master DevOps and infrastructure with containerization, orch |
+| 5 | **01-frontend-web** | Master frontend and web development with HTML, CSS, JavaScri |
+| 6 | **04-data-science-ai** | Master data science and AI with machine learning, deep learn |
+| 7 | **02-backend-server** | Master backend and server-side development with Node.js, Pyt |
+
+---
+
+## 🛠️ Skills
+
+### Available Skills
+
+| Skill | Description | Invoke |
+|-------|-------------|--------|
+| `data-ai` | Master data science and AI with machine learning, deep learn | `Skill("custom-plugin-blockchain:data-ai")` |
+| `database` | Master database design and management with SQL, NoSQL, and a | `Skill("custom-plugin-blockchain:database")` |
+| `devops` | Master DevOps practices including containerization, orchestr | `Skill("custom-plugin-blockchain:devops")` |
+| `frontend` | Master frontend development with HTML, CSS, JavaScript, Type | `Skill("custom-plugin-blockchain:frontend")` |
+| `backend` | Master backend development with REST APIs, databases, authen | `Skill("custom-plugin-blockchain:backend")` |
+| `architecture` | Master software architecture, design patterns, and system de | `Skill("custom-plugin-blockchain:architecture")` |
+| `mobile` | Master mobile app development with iOS, Android, and cross-p | `Skill("custom-plugin-blockchain:mobile")` |
+
+---
+
+## ⌨️ Commands
+
+| Command | Description |
+|---------|-------------|
+| `/learning-path` | path |
+| `/skill-assessment` | assessment |
+| `/roadmap-compare` | compare |
+| `/explore-roadmap` | roadmap |
+
+---
+
+## 📚 Documentation
+
+| Document | Description |
+|----------|-------------|
+| [CHANGELOG.md](CHANGELOG.md) | Version history |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute |
+| [LICENSE](LICENSE) | License information |
+
+---
+
+## 📁 Project Structure
+
+<details>
+<summary>Click to expand</summary>
+
+```
+custom-plugin-blockchain/
+├── 📁 .claude-plugin/
+│   ├── plugin.json
+│   └── marketplace.json
+├── 📁 agents/              # 7 agents
+├── 📁 skills/              # 7 skills (Golden Format)
+├── 📁 commands/            # 4 commands
+├── 📁 hooks/
+├── 📄 README.md
+├── 📄 CHANGELOG.md
+└── 📄 LICENSE
+```
+
+</details>
+
+---
+
+## 📅 Metadata
+
+| Field | Value |
+|-------|-------|
+| **Version** | 1.0.0 |
+| **Last Updated** | 2025-12-29 |
+| **Status** | Production Ready |
+| **SASMP** | v1.3.0 |
+| **Agents** | 7 |
+| **Skills** | 7 |
+| **Commands** | 4 |
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md).
+
+1. Fork the repository
+2. Create your feature branch
+3. Follow the Golden Format for new skills
+4. Submit a pull request
+
+---
+
+## ⚠️ Security
+
+> **Important:** This repository contains third-party code and dependencies.
+>
+> - ✅ Always review code before using in production
+> - ✅ Check dependencies for known vulnerabilities
+> - ✅ Follow security best practices
+> - ✅ Report security issues privately via [Issues](../../issues)
+
+---
+
+## 📝 License
+
+Copyright © 2025 **Dr. Umit Kacar** & **Muhsin Elcicek**
+
+Custom License - See [LICENSE](LICENSE) for details.
+
+---
+
+## 👥 Contributors
+
+<table>
+<tr>
+<td align="center">
+<strong>Dr. Umit Kacar</strong><br/>
+Senior AI Researcher & Engineer
+</td>
+<td align="center">
+<strong>Muhsin Elcicek</strong><br/>
+Senior Software Architect
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+**Made with ❤️ for the Claude Code Community**
+
+[![GitHub](https://img.shields.io/badge/GitHub-pluginagentmarketplace-black?style=for-the-badge&logo=github)](https://github.com/pluginagentmarketplace)
+
+</div>

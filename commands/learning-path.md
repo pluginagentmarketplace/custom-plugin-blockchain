@@ -1,3 +1,9 @@
+---
+name: learning-path
+description: path
+allowed-tools: Read
+---
+
 # /learning-path
 
 Create personalized learning paths based on your goals and experience level.

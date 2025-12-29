@@ -1,3 +1,9 @@
+---
+name: explore-roadmap
+description: roadmap
+allowed-tools: Read
+---
+
 # /explore-roadmap
 
 Explore developer roadmaps by role category.

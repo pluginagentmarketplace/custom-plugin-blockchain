@@ -3,7 +3,7 @@
   "description": "Professional developer roadmap plugin with 65+ roles. 7 specialized agents covering Frontend, Backend, DevOps, Data Science, Mobile, Database, and Specialized Roles. Powered by kamranahmedse/developer-roadmap.",
   "version": "1.0.0",
   "author": "Custom Plugin Blockchain Team",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "repository": {
     "type": "git",
     "url": "https://github.com/kamranahmedse/developer-roadmap"

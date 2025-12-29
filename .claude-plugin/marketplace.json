@@ -1,0 +1,15 @@
+{
+  "name": "pluginagentmarketplace-blockchain",
+  "owner": {
+    "name": "Plugin Agent Marketplace",
+    "email": "pluginagentmarketplace@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "custom-plugin-blockchain",
+      "source": "./",
+      "description": "Claude Code plugin for blockchain development",
+      "version": "1.0.0"
+    }
+  ]
+}

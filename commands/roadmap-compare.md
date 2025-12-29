@@ -1,3 +1,9 @@
+---
+name: roadmap-compare
+description: compare
+allowed-tools: Read
+---
+
 # /roadmap-compare
 
 Compare different developer roles and learning paths.

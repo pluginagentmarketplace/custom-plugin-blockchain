@@ -30,22 +30,22 @@
     {
       "name": "explore-roadmap",
       "description": "Explore and browse 65+ developer roadmaps by role",
-      "path": "commands/explore-roadmap.md"
+      "path": "./commands/explore-roadmap.md"
     },
     {
       "name": "learning-path",
       "description": "Create personalized learning paths based on goals",
-      "path": "commands/learning-path.md"
+      "path": "./commands/learning-path.md"
     },
     {
       "name": "skill-assessment",
       "description": "Assess your skills and get recommendations",
-      "path": "commands/skill-assessment.md"
+      "path": "./commands/skill-assessment.md"
     },
     {
       "name": "roadmap-compare",
       "description": "Compare different developer roles side-by-side",
-      "path": "commands/roadmap-compare.md"
+      "path": "./commands/roadmap-compare.md"
     }
   ],
   "skills": [
